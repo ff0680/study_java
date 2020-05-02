@@ -8,6 +8,7 @@
         <module>spring-boot-demo-web</module>
         <module>spring-boot-demo-service</module>
         <module>spring-boot-demo-biz</module>
+        <module>spring-boot-demo-common</module>
     </modules>
 
     <parent>
