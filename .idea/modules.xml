@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-common/spring-boot-demo-common.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-common/spring-boot-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-dal/spring-boot-demo-dal.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-dal/spring-boot-demo-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-manager/spring-boot-demo-manager.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-manager/spring-boot-demo-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-service/spring-boot-demo-service.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-service/spring-boot-demo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-web/spring-boot-demo-web.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo-web/spring-boot-demo-web.iml" />
+    </modules>
+  </component>
+</project>
