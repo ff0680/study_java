@@ -2,7 +2,8 @@ package cn.test.xff;
 
 import cn.test.dal.demo.mapper.RegisterDOMapper;
 import cn.test.dal.demo.model.RegisterDO;
-import cn.test.web.Application;
+
+import cn.test.demo.web.Application;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

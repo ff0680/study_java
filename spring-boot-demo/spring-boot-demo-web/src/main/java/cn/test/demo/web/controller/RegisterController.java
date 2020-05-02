@@ -6,7 +6,7 @@ package cn.test.demo.web.controller;
 
 import cn.test.common.exception.BizException;
 import cn.test.common.exception.enums.BizExceptionEnum;
-import cn.test.demo.service.UserRegisterService;
+import cn.test.demo.service.IUserRegisterService;
 import cn.test.demo.service.model.UserRegisterBO;
 import cn.test.demo.web.convert.UserLoginConvert;
 import cn.test.demo.web.model.request.UserLoginRequest;
@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RegisterController {
 
     @Autowired
-    private UserRegisterService userRegisterService;
+    private IUserRegisterService IUserRegisterService;
 
 //    @GetMapping("/login")
 //    public Response2OpenApi<String> login(UserLoginRequest request) {
@@ -74,8 +74,8 @@ public class RegisterController {
 
             log.info("call[RegisterController][register]PARAMS:{}", request);
             UserRegisterBO userRegisterBO = UserLoginConvert.convertRequest2BO(request);
-            userRegisterService.validator(userRegisterBO);
-            Boolean result = userRegisterService.doBusiness(userRegisterBO);
+            IUserRegisterService.validator(userRegisterBO);
+            Boolean result = IUserRegisterService.doBusiness(userRegisterBO);
             response.setSuccess(true);
             response.setResult(result.toString());
 

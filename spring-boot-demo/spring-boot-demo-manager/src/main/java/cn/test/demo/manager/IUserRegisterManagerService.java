@@ -14,7 +14,7 @@ import cn.test.dal.demo.model.RegisterDO;
  * 1. 添加用户
  */
 //// TODO: 2020/5/3  增加数据库异常处理
-public interface UserRegisterService {
+public interface IUserRegisterManagerService {
 
     /**
      * 添加用户

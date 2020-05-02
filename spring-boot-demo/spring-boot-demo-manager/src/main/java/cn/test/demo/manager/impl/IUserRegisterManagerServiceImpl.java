@@ -2,12 +2,12 @@ package cn.test.demo.manager.impl;
 
 import cn.test.dal.demo.mapper.RegisterDOMapper;
 import cn.test.dal.demo.model.RegisterDO;
-import cn.test.demo.manager.UserRegisterService;
+import cn.test.demo.manager.IUserRegisterManagerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserRegisterServiceImpl implements UserRegisterService {
+public class IUserRegisterManagerServiceImpl implements IUserRegisterManagerService {
 
     @Autowired
     private RegisterDOMapper registerDOMapper;

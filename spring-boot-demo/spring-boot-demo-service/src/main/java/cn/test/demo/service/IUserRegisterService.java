@@ -12,7 +12,7 @@ import cn.test.demo.service.model.UserRegisterBO;
  * @author Lcy
  * @version Id: UserRegisterService.java, v 0.1 2020/5/3 02:21  Exp $$
  */
-public interface UserRegisterService {
+public interface IUserRegisterService {
 
     Boolean doBusiness(UserRegisterBO request);
 
