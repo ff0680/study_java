@@ -6,6 +6,8 @@ import cn.test.demo.manager.UserRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
+
 @Service
 public class UserRegisterServiceImpl implements UserRegisterService {
 
@@ -14,6 +16,11 @@ public class UserRegisterServiceImpl implements UserRegisterService {
 
     @Override
     public Boolean addUser(RegisterDO request) {
+
+        request.setCreateAt(new Date());
+        request.setUpdateAt(new Date());
+        request.setCreateBy("small_ff");
+        request.setUpdateBy("small_ff");
 
         int result = registerDOMapper.insert(request);
 
