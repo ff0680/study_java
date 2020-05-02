@@ -11,5 +11,15 @@
 
     <artifactId>spring-boot-demo-manager</artifactId>
 
+    <!-- 依赖   -->
+    <dependencies>
+        <dependency>
+            <groupId>com.test</groupId>
+            <artifactId>spring-boot-demo-dal</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
 
 </project>
